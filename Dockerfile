@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 RUN apt-get update
 RUN apt-get install nginx -y
 COPY . /var/www/html/
